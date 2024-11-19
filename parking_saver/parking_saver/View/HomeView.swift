@@ -1,8 +1,8 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  parking_saver
 //
-//  Created by 林 明虎 on 2024/11/10.
+//  Created by 林 明虎 on 2024/11/19.
 //
 
 import SwiftUI
@@ -13,7 +13,7 @@ struct ParkingLocation: Identifiable {
     var coordinate: CLLocationCoordinate2D
 }
 
-struct ContentView: View {
+struct HomeView: View {
     @StateObject private var locationManager = LocationManager()
     @State private var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: 35.681236, longitude: 139.767125),
